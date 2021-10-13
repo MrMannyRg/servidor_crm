@@ -4,10 +4,10 @@ const app = express();
 const mysql = require('mysql')
 
 const db = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: 'password',
-    database: 'crm_soluciones'
+    host: '3.12.161.88',
+    user: 'crm',
+    password: 'Crm#28092021',
+    database: 'crmsz'
 })
 
 app.use(cors())
